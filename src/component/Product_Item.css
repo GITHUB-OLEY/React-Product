@@ -1,0 +1,38 @@
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.product-img img {
+    width: 100%
+}
+
+.product-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-gap: 0.7rem;
+}
+
+.product-items {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.product-items:hover {
+    outline: 2px solid darkorchid;
+}
+
+.product-detail {
+    padding: 0.5rem;
+}
+
+.product-price {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-right span {
+    font-size: 9px;
+}
